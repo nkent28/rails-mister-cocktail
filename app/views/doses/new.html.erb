@@ -1,0 +1,16 @@
+<h1>Doses</h1>
+
+<!-- code a form that allows to add an ingredient and a dose description -->
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <div class="form-group">
+    <%= f.input :description %>
+  </div>
+
+  <div class="form-group">
+    <%= f.association :ingredient %>
+  </div>
+
+  <%= f.button :submit %>
+<% end %>
+
+

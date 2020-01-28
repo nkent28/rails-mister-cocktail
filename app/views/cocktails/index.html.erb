@@ -1,0 +1,9 @@
+<h1>My list of cocktails</h1>
+<% @cocktails.each do |cocktail| %>
+  <h2><%= link_to "#{cocktail.name}", cocktail_path(cocktail) %></h2>
+<% end %>
+  <%= link_to "Add a new Cocktail", new_cocktail_path%>
+
+  <!-- rails knows when you link to the new_cocktail path
+  to then go to the new method in the cocktail controller -->
+
