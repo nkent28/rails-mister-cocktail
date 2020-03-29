@@ -1,0 +1,98 @@
+.cards {
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-grow: 1;
+  display: grid;
+}
+
+.card-cocktail {
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+  border-radius: 1px;
+  margin: 15px 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  font-size: 25px;
+  color: white;
+  font-weight: bolder;
+  text-shadow: 0 0 10px rgba(0,0,0,0.7);
+}
+
+.card-cocktail a {
+  text-decoration: none;
+  color: white;
+}
+
+
+.card-cocktail p {
+  font-size: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+.cocktail-name {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.card {
+  opacity: 0.9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 50px;
+}
+
+.card2 {
+  position: relative;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 2px;
+  opacity: 0.9;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin-top: 10px;
+}
+
+.cocktail-photo {
+  margin-bottom: 10px;
+}
+
+.doses-details {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 18px;
+}
+
+.cocktail-name {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 40px;
+}
+
+.cocktail-name2 {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+}
+
+.cocktail-name3 {
+  color: red;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+

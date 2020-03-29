@@ -1,6 +1,24 @@
-<%= simple_form_for(@cocktail) do |f| %>
-  <%= f.input :name %>
-    <%#= f.association :ingredients %>
+<div class="banner2" style="background-image: url(https://images.unsplash.com/photo-1554219962-f71d858fa121?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1600&q=80);">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-6 my-3">
+        <div class="card" style="width: 28rem, height: 18rem;">
+          <div class="search-form box-shadow p-4">
+            <div class="text-center">
+            <h1 class="cocktail-name">Add a Cocktail</h1>
+            </div>
+            <%= simple_form_for(@cocktail) do |f| %>
+             <span class="doses-details"><%= f.input :name %></span>
+            <%#= f.association :ingredients %>
+             <span class="doses-details"><%= f.input :photo, as: :file %></span>
+              <div class="text-center">
+              <%= f.submit class: 'btn btn-danger' %>
+              <% end %>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 
-  <%= f.submit class: 'btn btn-primary' %>
-<% end %>

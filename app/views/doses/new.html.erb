@@ -1,16 +1,24 @@
-<h1>Doses</h1>
-
-<!-- code a form that allows to add an ingredient and a dose description -->
-<%= simple_form_for [@cocktail, @dose] do |f| %>
-  <div class="form-group">
-    <%= f.input :description %>
+<div class="banner2" style="background-image: url(https://images.unsplash.com/photo-1564947742038-b9056e16aaff?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80);">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-6 my-3">
+        <div class="card" style="width: 28rem, height: 25rem;">
+          <div class="search-form box-shadow p-4">
+            <div class="text-center">
+              <h1>Doses</h1>
+            </div>
+            <%= simple_form_for [@cocktail, @dose] do |f| %>
+            <span class="doses-details"><%= f.input :description %></span>
+            <span class="doses-details"><%= f.association :ingredient %></span>
+              <div class="text-center">
+              <%= f.button :submit, class: 'btn btn-danger' %>
+              <% end %>
+              </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
-
-  <div class="form-group">
-    <%= f.association :ingredient %>
-  </div>
-
-  <%= f.button :submit %>
-<% end %>
+</div>
 
 

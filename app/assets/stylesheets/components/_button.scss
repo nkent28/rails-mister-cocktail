@@ -1,0 +1,28 @@
+.btn-gradient {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: linear-gradient(#167FFB, #0F60C4);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+  position: absolute;
+  top: 65%;
+  left: 43%;
+}
+
+.btn-gradient:hover {
+  background: linear-gradient(#147EFF, #0F67DA);
+  color: white;
+}
+
+.btn-cocktail {
+  color: white;
+  padding: 8px 24px;
+  border-radius: 4px;
+  background: linear-gradient(red);
+  transition: background 0.3s ease;
+  border: 1px solid #0F60C4;
+  position: absolute;
+  top: 70%;
+  left: 43%;
+}
