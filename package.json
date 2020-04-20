@@ -9,7 +9,5 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^3.10.1"
-  },
-  "scripts": {
-   "start": "node index.js"
+  }
 }
