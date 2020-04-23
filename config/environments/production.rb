@@ -12,6 +12,8 @@ Rails.application.configure do
 
   config.active_storage.service = :cloudinary
 
+  config.active_storage.service = :local
+
 
   # Full error reports are disabled and caching is turned on.
   config.consider_all_requests_local       = false
