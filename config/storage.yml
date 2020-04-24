@@ -1,4 +1,4 @@
-  cloudinary:
-    service: Cloudinary
+cloudinary:
+  service: Cloudinary
 
 
