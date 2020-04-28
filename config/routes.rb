@@ -7,6 +7,7 @@ root to:'cocktails#index'
   end
   resources :doses, only: [:destroy]
    resources :reviews, only: [:destroy]
+    resources :cocktails, only: [:destroy]
 
   resources :cocktails do
     resources :reviews, only: [:new, :create]
