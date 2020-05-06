@@ -40,3 +40,88 @@ body, html {
  background-size: cover;
  background-color: #b2dffb;
 }
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 16px;
+}
+
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner {
+   background-position: center;
+  padding: 165px 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-size: 100% 100%;
+  width: 168%;
+  height: 500px;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .banner {
+      background-position: center;
+  padding: 165px 0;
+  background-repeat: no-repeat;
+  background-size: cover;  }
+}
+
+
+@media (min-width: 100px) and (max-width: 575px) {
+  .banner3 {
+  height: 152vh;
+ width: 151vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #b2dffb;
+  }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  .banner3 {
+ height: 115vh;
+ width: 100vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #b2dffb;  }
+}
+
+@media (min-width: 768px) {
+.banner3 {
+ height: 115vh;
+ width: 100vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #b2dffb;
+  }
+}
+
+@media (min-width: 992px) {
+.banner3 {
+ height: 115vh;
+ width: 100vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #b2dffb;
+  }
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+.banner3 {
+ height: 135vh;
+ width: 100vw;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ background-color: #b2dffb;
+  }
+}
