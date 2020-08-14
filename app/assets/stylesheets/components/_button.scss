@@ -27,6 +27,7 @@
   left: 43%;
 }
 
+
 .fas {
   color: white;
   padding: 8px 24px;
@@ -45,14 +46,14 @@
 @media (min-width: 100px) and (max-width: 575px) {
   .btn-cocktail {
   color: white;
-  padding: 8px 24px;
+  padding: 4px 24px;
   border-radius: 4px;
   background: linear-gradient(red);
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
   position: absolute;
-  top: 67%;
-  left: 47%;
+  top: -886%;
+  left: 20%;
   }
 }
 
@@ -80,8 +81,8 @@
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
   position: absolute;
-  top: 49%;
-  left: 43%;
+  top: -445%;
+  left: 37%;
   }
 }
 
@@ -95,8 +96,8 @@
   transition: background 0.3s ease;
   border: 1px solid #0F60C4;
   position: absolute;
-  top: 59%;
-  left: 43%;
+  top: -642%;
+  left: 42%;
   }
 }
 
