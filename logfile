@@ -1,0 +1,13 @@
+2020-05-23 01:27:49.554 NZST [13220] LOG:  starting PostgreSQL 12.3 on x86_64-apple-darwin15.6.0, compiled by Apple LLVM version 8.0.0 (clang-800.0.42.1), 64-bit
+2020-05-23 01:27:49.557 NZST [13220] LOG:  listening on IPv6 address "::1", port 5432
+2020-05-23 01:27:49.557 NZST [13220] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+2020-05-23 01:27:49.559 NZST [13220] LOG:  listening on Unix socket "/tmp/.s.PGSQL.5432"
+2020-05-23 01:27:49.576 NZST [13221] LOG:  database system was shut down at 2020-05-23 01:26:42 NZST
+2020-05-23 01:27:49.588 NZST [13220] LOG:  database system is ready to accept connections
+2020-05-23 01:28:20.971 NZST [13266] FATAL:  database "rails-mister-cocktail_development" does not exist
+2020-05-23 01:32:23.385 NZST [13401] FATAL:  role "rails-mister-cocktail" does not exist
+2020-05-23 01:35:21.460 NZST [13638] FATAL:  database "rails_travel_destinations_development" does not exist
+2020-05-23 01:36:58.451 NZST [13220] LOG:  received smart shutdown request
+2020-05-23 01:36:58.453 NZST [13220] LOG:  background worker "logical replication launcher" (PID 13227) exited with exit code 1
+2020-05-23 01:36:58.453 NZST [13222] LOG:  shutting down
+2020-05-23 01:36:58.473 NZST [13220] LOG:  database system is shut down

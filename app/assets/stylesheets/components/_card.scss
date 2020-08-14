@@ -4,6 +4,10 @@
   display: grid;
 }
 
+.img-fluid {
+  width: 100%;
+}
+
 .card-cocktail {
   background-size: cover;
   background-position: center;
@@ -95,4 +99,12 @@
   font-size: 16px;
 }
 
+// Smallest device
+@media (min-width: 100px) and (max-width: 575px) {
+.cards {
+  grid-template-columns: 1fr;
+  flex-grow: 1;
+  display: grid;
+}
+}
 
