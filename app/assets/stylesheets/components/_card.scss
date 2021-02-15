@@ -1,3 +1,5 @@
+
+
 .cards {
   grid-template-columns: 1fr 1fr 1fr;
   flex-grow: 1;
@@ -73,6 +75,7 @@
 
 .cocktail-photo {
   margin-bottom: 10px;
+  width: 70%;
 }
 
 .doses-details {
@@ -107,4 +110,12 @@
   display: grid;
 }
 }
+
+// @media (min-width: 100px) and (max-width: 575px) {
+// .card {
+//   width: 70%;
+//   }
+// }
+
+
 
